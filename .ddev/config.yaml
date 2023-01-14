@@ -8,7 +8,7 @@ nfs_mount_enabled: false
 mutagen_enabled: false
 
 # WebServer settings
-php_version: "7.4"
+php_version: "8.1"
 mariadb_version: "10.3"
 webserver_type: nginx-fpm
 
