@@ -1,0 +1,21 @@
+# DDEV project configuration
+
+# Local website will be available via <name>.ddev.site
+name: ddev-pull-wp-scripts
+type: wordpress
+docroot: ""
+nfs_mount_enabled: false
+mutagen_enabled: false
+
+# WebServer settings
+php_version: "7.4"
+mariadb_version: "10.3"
+webserver_type: nginx-fpm
+
+# All options: 
+# https://ddev.readthedocs.io/en/stable/users/extend/config_yaml/
+
+
+# ##################################################
+# #   If you change values, run 'ddev restart' !!  #
+# ##################################################
